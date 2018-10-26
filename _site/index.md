@@ -43,104 +43,32 @@
           clear:left;
           font-weight:200
       }
-      #mc_embed_signup form {
-        padding:0
-      }
       #mc_embed_signup label {
         font-weight:100
       }
-      #mc_embed_signup input.btn{
+      #mc_embed_signup input.button{
         color: black;
         background-color: #23F5CC
       }
-      #mc_embed_signup input.btn:hover{
+      #mc_embed_signup input.button:hover{
         color: black;
         background-color: #21d6b2
       }
-      .img {
-        position:absolute;
-      }
-      #playtex {
-        right:0;
-        top:0;
-      }
-      #condom {
-        right:0;
-        top:30%;
-      }
-      #cold {
-        left:5%;
-        top:10%;
-      }
-      #tp {
-        left:0;
-        top:70%;
-      }
-      #tp_mobile {
-        left:0;
-        top:70%;
-        height:20%;
-      }
-      #gatorade {
-        right:0;
-        bottom:0;
-      }
-      #gatorade_mobile {
-        right:0;
-        bottom:0;
-        height:40%;
-      }
-      #skittles {
-        left:0;
-        top:50%;
+      #made_in_nc {
+        font-weight:900
       }
      </style>
   </head>
   <body>
-    <img id="playtex" class="img d-none d-sm-block" src="/assets/playtex.png" alt="">
-    <img id="condom" class="img d-none d-sm-block" src="/assets/condom.png" alt="">
-    <img id="cold" class="img" src="/assets/cold.png" alt="">
-    <img id="skittles" class="img d-none d-sm-block" src="/assets/skittles.png" alt="">
-    <img id="gatorade" class="img d-none d-sm-block" src="/assets/gatorade.png" alt="">
-    <img id="gatorade_mobile" class="img d-block d-md-none" src="/assets/gatorade.png" alt="">
-    <img id="tp" class="img d-none d-sm-block" src="/assets/tp.png" alt="">
-    <img id="tp_mobile" class="img d-block d-sm-none" src="/assets/tp.png" alt="">
-
-    <header class="site-header" role="banner">
+    <header class="site-header mb-5" role="banner">
       <nav class="navbar">
         <span class="navbar-brand" href="#">HootVan</span>
       </nav>
     </header>
     <main id="content" role="main" class="text-center">
       <div class="row">
-
-        <!-- Desktop -->
-        <div class="col-md-12 my-5 d-none d-sm-block">
+        <div class="col-md-12 mb-5">
           <div class="carousel slide mb-5" data-ride="carousel" data-interval="3000" data-wrap="false">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <h3>When you're sick</h3>
-              </div>
-              <div class="carousel-item">
-                <h3>When you're up studying late</h3>
-              </div>
-              <div class="carousel-item">
-                <h3>When you're hanging out</h3>
-              </div>
-              <div class="carousel-item">
-                <h3>HootVan is there for you</h3>
-              </div>
-            </div>
-          </div>
-          <h1>
-            <span class="d-block">Sign up before we launch and get $2 deliveries.</span>
-            Forever.
-          </h1>
-        </div>
-
-        <!-- Mobile -->
-        <div class="col-md-12 my-2 d-block d-sm-none">
-          <div class="carousel slide mb-2" data-ride="carousel" data-interval="3000" data-wrap="false">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <h3>When you're sick</h3>
@@ -160,20 +88,21 @@
               <span class="d-block">Delivering the things you need now</span>
               24/7 & in under 30 minutes
           </h3> -->
-          <h1>
+          <h1 class="">
             <span class="d-block">Sign up before we launch and get $2 deliveries.</span>
             Forever.
           </h1>
         </div>
+
         <div class="col-md-12">
           <div id="mc_embed_signup">
             <form action="https://hootvan.us19.list-manage.com/subscribe/post?u=e8120195e3719979489161ea3&amp;id=68712f5eb2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-              <div id="mc_embed_signup_scroll" class="text-center form-group">
+              <div id="mc_embed_signup_scroll" class="text-center">
                 <label for="mce-EMAIL" class="font-weight-bold">Subscribe to our mailing list</label>
-            	  <input type="email" value="" name="EMAIL" class="email mx-auto form-control" id="mce-EMAIL" placeholder="Your email address" required>
+            	  <input type="email" value="" name="EMAIL" class="email mx-auto" id="mce-EMAIL" placeholder="Your email address" required>
                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e8120195e3719979489161ea3_68712f5eb2" tabindex="-1" value=""></div>
-                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn mx-auto">
+                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button mx-auto">
               </div>
             </form>
           </div>
@@ -183,7 +112,7 @@
     <footer class="fixed-bottom text-center">
       <div class="row">
         <div class="col-md-12 pb-5">
-          <span class="font-weight-light d-none d-md-block d-lg-none">Made in NC</span>
+          Made in NC
         </div>
       </div>
     </footer>

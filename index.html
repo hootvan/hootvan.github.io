@@ -54,6 +54,9 @@
         color: black;
         background-color: #21d6b2
       }
+      #made_in_nc {
+        font-weight:900
+      }
      </style>
   </head>
   <body>

@@ -43,29 +43,58 @@
           clear:left;
           font-weight:200
       }
+      #mc_embed_signup form {
+        padding:0
+      }
       #mc_embed_signup label {
         font-weight:100
       }
-      #mc_embed_signup input.button{
+      #mc_embed_signup input.btn{
         color: black;
         background-color: #23F5CC
       }
-      #mc_embed_signup input.button:hover{
+      #mc_embed_signup input.btn:hover{
         color: black;
         background-color: #21d6b2
       }
      </style>
   </head>
   <body>
-    <header class="site-header mb-5" role="banner">
+    <header class="site-header" role="banner">
       <nav class="navbar">
         <span class="navbar-brand" href="#">HootVan</span>
       </nav>
     </header>
     <main id="content" role="main" class="text-center">
       <div class="row">
-        <div class="col-md-12 mb-5">
+
+        <!-- Desktop -->
+        <div class="col-md-12 my-5 d-none d-sm-block">
           <div class="carousel slide mb-5" data-ride="carousel" data-interval="3000" data-wrap="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h3>When you're sick</h3>
+              </div>
+              <div class="carousel-item">
+                <h3>When you're up studying late</h3>
+              </div>
+              <div class="carousel-item">
+                <h3>When you're hanging out</h3>
+              </div>
+              <div class="carousel-item">
+                <h3>HootVan is there for you</h3>
+              </div>
+            </div>
+          </div>
+          <h1>
+            <span class="d-block">Sign up before we launch and get $2 deliveries.</span>
+            Forever.
+          </h1>
+        </div>
+
+        <!-- Mobile -->
+        <div class="col-md-12 my-2 d-block d-sm-none">
+          <div class="carousel slide mb-2" data-ride="carousel" data-interval="3000" data-wrap="false">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <h3>When you're sick</h3>
@@ -85,21 +114,20 @@
               <span class="d-block">Delivering the things you need now</span>
               24/7 & in under 30 minutes
           </h3> -->
-          <h1 class="">
+          <h1>
             <span class="d-block">Sign up before we launch and get $2 deliveries.</span>
             Forever.
           </h1>
         </div>
-
         <div class="col-md-12">
           <div id="mc_embed_signup">
             <form action="https://hootvan.us19.list-manage.com/subscribe/post?u=e8120195e3719979489161ea3&amp;id=68712f5eb2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-              <div id="mc_embed_signup_scroll" class="text-center">
+              <div id="mc_embed_signup_scroll" class="text-center form-group">
                 <label for="mce-EMAIL" class="font-weight-bold">Subscribe to our mailing list</label>
-            	  <input type="email" value="" name="EMAIL" class="email mx-auto" id="mce-EMAIL" placeholder="Your email address" required>
+            	  <input type="email" value="" name="EMAIL" class="email mx-auto form-control" id="mce-EMAIL" placeholder="Your email address" required>
                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e8120195e3719979489161ea3_68712f5eb2" tabindex="-1" value=""></div>
-                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button mx-auto">
+                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn mx-auto">
               </div>
             </form>
           </div>
@@ -109,7 +137,7 @@
     <footer class="fixed-bottom text-center">
       <div class="row">
         <div class="col-md-12 pb-5">
-          Made in NC
+          <span class="font-weight-light d-none d-sm-block">Proudly made in NC</span>
         </div>
       </div>
     </footer>
